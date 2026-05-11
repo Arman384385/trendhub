@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>TrendHub</title>
@@ -68,7 +68,7 @@
     <div class="category">
         Car Edits 🚗
         <div class="template">
-            Luxury Car Template
+            Luxury Cars Template
             <br>
             <button>Use Template</button>
         </div>
