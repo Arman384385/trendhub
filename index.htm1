@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TrendHub</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #0f0f0f;
+            color: white;
+        }
+
+        header {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #00ffcc;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .category {
+            background: #1c1c1c;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+
+        .template {
+            background: #222;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background: #00ffcc;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    TrendHub 🚀
+</header>
+
+<div class="container">
+
+    <div class="category">
+        Sad Edits 😢
+        <div class="template">
+            Viral Sad Template 1
+            <br>
+            <button>Use Template</button>
+        </div>
+    </div>
+
+    <div class="category">
+        Car Edits 🚗
+        <div class="template">
+            Luxury Car Template
+            <br>
+            <button>Use Template</button>
+        </div>
+    </div>
+
+    <div class="category">
+        Attitude 😎
+        <div class="template">
+            Attitude Reel Template
+            <br>
+            <button>Use Template</button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
