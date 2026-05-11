@@ -2,50 +2,76 @@
 <html>
 <head>
     <title>TrendHub</title>
+
     <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background: #0f0f0f;
-            color: white;
+
+        body{
+            background:#0f0f0f;
+            font-family:Arial;
+            color:white;
+            margin:0;
         }
 
-        header {
-            background: #111;
-            padding: 20px;
-            text-align: center;
-            font-size: 28px;
-            font-weight: bold;
-            color: #00ffcc;
+        header{
+            background:#111;
+            padding:20px;
+            text-align:center;
+            font-size:35px;
+            font-weight:bold;
+            color:#00ffd5;
+            box-shadow:0px 0px 10px #00ffd5;
         }
 
-        .container {
-            padding: 20px;
+        .container{
+            padding:20px;
         }
 
-        .category {
-            background: #1c1c1c;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 10px;
+        .category-title{
+            font-size:25px;
+            margin-top:40px;
+            margin-bottom:20px;
+            color:#00ffd5;
         }
 
-        .template {
-            background: #222;
-            padding: 15px;
-            margin-top: 10px;
-            border-radius: 10px;
+        .template-card{
+            background:#1a1a1a;
+            border-radius:15px;
+            padding:20px;
+            margin-bottom:20px;
+            box-shadow:0px 0px 10px rgba(0,255,213,0.2);
+            transition:0.3s;
         }
 
-        button {
-            margin-top: 10px;
-            padding: 10px;
-            background: #00ffcc;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
+        .template-card:hover{
+            transform:scale(1.02);
         }
+
+        .template-image{
+            width:100%;
+            border-radius:10px;
+        }
+
+        .template-name{
+            font-size:22px;
+            margin-top:15px;
+        }
+
+        .use-btn{
+            background:#00ffd5;
+            border:none;
+            padding:12px 20px;
+            border-radius:10px;
+            font-weight:bold;
+            margin-top:15px;
+            cursor:pointer;
+        }
+
+        .use-btn:hover{
+            background:white;
+        }
+
     </style>
+
 </head>
 
 <body>
@@ -56,31 +82,60 @@
 
 <div class="container">
 
-    <div class="category">
-        Sad Edits 😢
-        <div class="template">
-            Viral Sad Template 1
-            <br>
-            <button>Use Template</button>
-        </div>
+    <div class="category-title">
+        Sad Templates 😢
     </div>
 
-    <div class="category">
-        Car Edits 🚗
-        <div class="template">
-            Luxury Cars Template
-            <br>
-            <button>Use Template</button>
+    <div class="template-card">
+
+        <img class="template-image" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="template-name">
+            Viral Sad Edit
         </div>
+
+        <button class="use-btn">
+            Use Template
+        </button>
+
     </div>
 
-    <div class="category">
-        Attitude 😎
-        <div class="template">
-            Attitude Reel Template
-            <br>
-            <button>Use Template</button>
+
+    <div class="category-title">
+        Car Templates 🚗
+    </div>
+
+    <div class="template-card">
+
+        <img class="template-image" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="template-name">
+            Luxury Car Edit
         </div>
+
+        <button class="use-btn">
+            Use Template
+        </button>
+
+    </div>
+
+
+    <div class="category-title">
+        Attitude Templates 😎
+    </div>
+
+    <div class="template-card">
+
+        <img class="template-image" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="template-name">
+            Attitude Reel Edit
+        </div>
+
+        <button class="use-btn">
+            Use Template
+        </button>
+
     </div>
 
 </div>
